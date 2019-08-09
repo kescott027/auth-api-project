@@ -1,0 +1,35 @@
+{
+  "name": "auth-api-project",
+  "version": "1.0.0",
+  "description": "simple authentication api microservice",
+  "main": "/dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.452.0",
+    "crypto": "^1.0.1",
+    "util": "^0.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kescott027/auth-api-project.git"
+  },
+  "author": "kyle scott",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kescott027/auth-api-project/issues"
+  },
+  "homepage": "https://github.com/kescott027/auth-api-project#readme"
+}
